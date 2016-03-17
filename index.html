@@ -2,39 +2,45 @@
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
-    <meta name=viewport content="width=device-width, initial-scale=1">
     <style>
-        body {background-image: url("img/backf.jpg")}
-        h1 {font-size:20pt; background-color: limegreen; border: 1px solid red; margin-left: 300px; margin-right: 300px}
-        h3 {font-size:20pt; background-color: limegreen; border: 1px solid red; margin-left: 300px; margin-right: 300px; margin-top: 120px;}
-        h2 {color:red; margin-left: 300px; margin-right: 300px; font-size: 20pt}
-        pre {margin-left:300px; margin-right: 300px}
+        body {background-image: url("img/backf.jpg"); /*min-width: 700px*/}
+        h1 {font-size:20pt; background-color: limegreen; border: 1px solid red; /*margin-left: 300px; margin-right: 300px;*/ margin-left: 20%; margin-right: 20%;}
+        h3 {font-size:20pt; background-color: limegreen; border: 1px solid red; /*margin-left: 300px; margin-right: 300px;*/ margin-left: 20%; margin-right: 20%; margin-top: 120px;}
+        h2 {color:red; /*margin-left: 300px; margin-right: 300px;*/ margin-left: 20%; margin-right: 20%; font-size: 20pt}
+        pre {/*margin-left:300px; margin-right: 300px*/ margin-left: 20%; margin-right: 20%}
         div {border:1px solid blue}
-        p {margin-left: 300px; margin-right: 300px}
+        p {/*margin-left: 300px; margin-right: 300px*/ font-size: 100%; margin-left: 20%; margin-right: 20%}
         ul#navigation {
             position: fixed;
             margin: 0px;
             padding: 0px;
             top: 0px;
-            right: 155px;
+            right: 10%;
             list-style: none;
             z-index:999999;
-            width:1021px;
+            width: 80%;
+            /* width:1021px;
+           /*  max-width: 90%;
+             min-width: 30%;*/
         }
         ul#navigation li {
-            width: 203px;
+            /*width: 203px;*/
+            width: 20%;
             display:inline;
             float:left;
         }
         ul#navigation li a {
             display: block;
-            float:left;
+            /*float:left;*/
             margin-top: 30px;
-            width: 200px;
+            width: 100%;
+            /* width: 200px;
+            /* max-width: 100%;
+             min-width: 100%;*/
             height: 50px;
             background-color:#E7F2F9;
             background-repeat:no-repeat;
-            background-position:50% 10px;
+            background-position: 10px;
             border:1px solid #BDDCEF;
             text-decoration:none;
             text-align:center;
@@ -55,7 +61,7 @@
         }
         ul#navigation li a span{
             letter-spacing:2px;
-            font-size:20px;
+            font-size:100%;
             color:#60ACD8;
             text-shadow: 0 -1px 1px #fff;
         }
@@ -72,23 +78,23 @@
 </head>
 <body>
 <ul id="navigation">
-    <li class="regional"><a href=""><span>Региональные кубки</span></a></li>
+    <li class="regional"><a href="RegionalCups.html"><span>Региональные кубки</span></a></li>
     <li class="world"><a href=""><span>Международные кубки</span></a></li>
     <li class="history"><a href=""><span>История чемпионатов</span></a></li>
     <li class="best"><a href=""><span>Лучшие из лучших</span></a></li>
     <li class="fun"><a href=""><span>Курьезы в футболе</span></a></li>
 </ul>
 <h3 align="center">Ближайшие мачти</h3>
-<pre style="border: 1px solid blue"> Чемпионат Германии, 22-й тур
-  <span style="font-size: 18px; color: darkgreen">17:30. Байер - Боруссия Д - 0:0</span>                     <span style="font-size: 15px; color: red">Анонс</span>
+<pre > Чемпионат Германии, 22-й тур
+  <span style="font-size: 130%; color: darkgreen">17:30. Байер - Боруссия Д - 0:0</span>                     <span style="font-size: 15px; color: red">Анонс</span>
  Чемпионат Испании, 25-й тур
-  <span style="font-size: 18px; color: darkgreen">18:00. Малага - Реал Мадрид - 0:0</span>                  <span style="font-size: 15px; color: red">Онлаин</span>
-  <span style="font-size: 18px; color: darkgreen">20:15. Гранада - Валенсия - 0:0</span>                     <span style="font-size: 15px; color: red">Анонс</span>
-  <span style="font-size: 18px; color: darkgreen">22:30. Атлетико - Вильярреал - 0:0</span>                 <span style="font-size: 15px; color: red">Анонс</span>
+  <span style="font-size: 130%; color: darkgreen">18:00. Малага - Реал Мадрид - 0:0</span>                  <span style="font-size: 15px; color: red">Онлаин</span>
+  <span style="font-size: 130%; color: darkgreen">20:15. Гранада - Валенсия - 0:0</span>                     <span style="font-size: 15px; color: red">Анонс</span>
+  <span style="font-size: 130%; color: darkgreen">22:30. Атлетико - Вильярреал - 0:0</span>                 <span style="font-size: 15px; color: red">Анонс</span>
  Кубок Англии, 1/8 финала
-  <span style="font-size: 18px; color: darkgreen">19:00. Челси - Манчестер Сити - 0:0</span>                <span style="font-size: 15px; color: red">Онлаин</span>
+  <span style="font-size: 130%; color: darkgreen">19:00. Челси - Манчестер Сити - 0:0</span>                <span style="font-size: 15px; color: red">Онлаин</span>
  Чемпионат Италии, 26-й тур
-  <span style="font-size: 18px; color: darkgreen">22:45. Рома - Палермо - 0:0</span>                           <span style="font-size: 15px; color: red">Анонс</span></pre>
+  <span style="font-size: 130%; color: darkgreen">22:45. Рома - Палермо - 0:0</span>                           <span style="font-size: 15px; color: red">Анонс</span></pre>
 <h1 align="center">Обзор последних матчей</h1>
 <h2>"БАРСА" СПРАВИЛАСЬ С "ЛАС-ПАЛЬМАСОМ"</h2>
 <p style="font-size: 15px; color: darkturquoise">Чемпионат Испании. 25-й тур</p>
