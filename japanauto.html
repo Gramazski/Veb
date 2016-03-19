@@ -1,10 +1,8 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Все об авто</title>
-
+    <title>Title</title>
     <style>
         body{
             background-image: url("img/bodyf.jpg");
@@ -119,56 +117,43 @@
             margin-top: 5%;
         }
 
-        #newslist {
-            float: left;
-            padding-left: 20px;
-            /*background-color: aqua;*/
-
-            width: 100px;
-            margin-left: 3%;
-            margin-top: 7%;
-        }
-
-        #newslist ul{
-            list-style-image: url("img/listimg.png");
-            color: white;
-        }
-
-        #news{
+        div.img {
             text-align: center;
-            width: 60%;
-            margin-top: 7%;
-            /*background-color: aquamarine;*/
-            margin-left: 20%;
-        }
-
-        #news p{
             margin-top: 4%;
-            text-align: center;
-            width: 100%;
+            /*background-color: aquamarine;*/
+            margin-left: 4%;
+            border: 1px solid #ccc;
+            float: left;
+            width: 180px;
         }
 
-        .leftimg {
-            float:left;
-            margin: 7px 7px 7px 0;
+        div.img:hover {
+            border: 1px solid #777;
         }
-        .rightimg  {
-            float: right;
-            margin: 7px 0 7px 7px;
+
+        div.img img {
+            width: 100%;
+            height: auto;
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
         }
 
         h1{
-            margin-top: 2%;
+            margin-top: 5%;
             font-size: 20px;
+            text-align: center;
         }
-    </style>
 
+    </style>
 </head>
 <body>
 
 <div id="mainmenu">
     <ul>
-        <li><a href="#">Главная</a></li>
+        <li><a href="index.html">Главная</a></li>
         <!-- <li><a href="#">Авто в истории</a></li>-->
         <li><a href="#">Каталог</a>
             <ul>
@@ -192,34 +177,85 @@
 
 <p>i</p>
 
-<div id="newslist">
-    <ul>
-    </ul>
+<h1 style="color: blue">КАТАЛОГ АВТОМОБИЛЕЙ ПО ЯПОНСКИМ МАРКАМ</h1>
+<hr style="width: 60%; margin-left: 20%">
+
+<div class="img">
+    <a target="_blank" href="fjords.jpg">
+        <img src="img/toyota.gif" alt="Fjords" width="300" height="200">
+    </a>
+    <div class="desc">TOYOTA</div>
 </div>
 
-<div id="news">
-    <h1 style="color: blue">АВТОНОВОСТИ</h1>
-    <hr style="color: green">
-    <h1>Carlex Design анонсировали хромированный Nissan GT-R<img src="img/nissan-gt.jpg" style="padding-top: 5px"></h1>
-    <p>Carlex Design представили весьма эффектный проект - хромированный Nissan GT-R с рядом косметических улучшений.<a href="newspage.html">Подробнее</a> </p>
-    <hr style="color: indigo; margin-top: 2%">
-    <h1>Летом стартует производство нового RAVON NEXIA<img src="img/ravon_nexia.jpg" style="padding-top: 5px"></h1>
-    <p>Во втором квартале этого года узбекская компания «Узавтосаноат», производящая автомобили марок Chevrolet и Ravon, начнет выпуск седана Ravon Nexia.<a href="#">Подробнее</a> </p>
-    <hr style="color: indigo; margin-top: 2%">
-    <h1>Chevrolet официально представила 2017 Camaro ZL1<img src="img/2017-chevy-camaro.jpg" style="padding-top: 5px"></h1>
-    <p>Компания Chevrolet официально представила Camaro ZL1 2017 модельного года, который производитель позиционирует, как автомобиль готовый "преуспеть во всем".<a href="#">Подробнее</a> </p>
-    <hr style="color: indigo; margin-top: 2%">
-    <h1>Mansory представила карбоновый Range Rover Sport<img src="img/range-rover-sport-by-mansory.jpg" style="padding-top: 5px"></h1>
-    <p>Тюнеры Mansory предложили новый пакет улучшений для внедорожника Range Rover Sport, который включает косметические и технические улучшения.<a href="#">Подробнее</a> </p>
-    <hr style="color: indigo; margin-top: 2%">
-    <h1>Немцы представили новый Mercedes-AMG E43 4MATIC<img src="img/2017-mercedes-amg-e43.jpg" style="padding-top: 5px"></h1>
-    <p>Mercedes-AMG представила высокопроизводительную версию нового E-Class (W213), которая получила вместе с именем E43 новый двигатель и систему полного привода в стандартный конфигурации.<a href="#">Подробнее</a> </p>
-    <hr style="color: indigo; margin-top: 2%">
+<div class="img">
+    <a target="_blank" href="fjords.jpg">
+        <img src="img/infiniti.gif" alt="Fjords" width="300" height="200">
+    </a>
+    <div class="desc">INFINITI</div>
 </div>
+
+<div class="img">
+    <a target="_blank" href="fjords.jpg">
+        <img src="img/mitsubishi.gif" alt="Fjords" width="300" height="200">
+    </a>
+    <div class="desc">MITSUBISHI</div>
+</div>
+
+<div class="img">
+    <a target="_blank" href="fjords.jpg">
+        <img src="img/subaru.gif" alt="Fjords" width="300" height="200">
+    </a>
+    <div class="desc">SUBARY</div>
+</div>
+
+<div class="img">
+    <a target="_blank" href="fjords.jpg">
+        <img src="img/suzuki.gif" alt="Fjords" width="300" height="200">
+    </a>
+    <div class="desc">SUZUKI</div>
+</div>
+
+<div class="img">
+    <a target="_blank" href="fjords.jpg">
+        <img src="img/nissan.gif" alt="Fjords" width="300" height="200">
+    </a>
+    <div class="desc">NISSAN</div>
+</div>
+
+<div class="img">
+    <a target="_blank" href="hondadescr.html">
+        <img src="img/honda.gif" alt="Fjords" width="300" height="200">
+    </a>
+    <div class="desc">HONDA</div>
+</div>
+
+<div class="img">
+    <a target="_blank" href="fjords.jpg">
+        <img src="img/lexus.gif" alt="Fjords" width="300" height="200">
+    </a>
+    <div class="desc">LEXUS</div>
+</div>
+
+<div class="img">
+    <a target="_blank" href="fjords.jpg">
+        <img src="img/mazda.gif" alt="Fjords" width="300" height="200">
+    </a>
+    <div class="desc">MAZDA</div>
+</div>
+
+<div class="img">
+    <a target="_blank" href="fjords.jpg">
+        <img src="img/isuzu.gif" alt="Fjords" width="300" height="200">
+    </a>
+    <div class="desc">ISUZU</div>
+</div>
+
+<hr style="width: 60%; margin-left: 20%; margin-top: 40%">
 
 <div id="footer">
     Copyright © Gramazski
 </div>
+
 
 </body>
 </html>
