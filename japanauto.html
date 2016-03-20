@@ -2,119 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <link rel="stylesheet" media="(max-width: 900px)" href="css/menu.css">
+    <link rel="stylesheet" media="(min-width: 901px)" href="css/dmenu.css">
+    <title>Японские автомобили</title>
     <style>
         body{
             background-image: url("img/bodyf.jpg");
             background-attachment: fixed;
-        }
-        * {
-            margin:0;
-            padding:0
-        }
-        #mainmenu{
-            position:fixed;
-            background:#444444;
-            height:50px;
-            margin:20px 0;
-            padding:0;
-            float:left;
-            width:100%;
-            min-width:900px;
-            z-index:100
-        }
-        #mainmenu ul {
-            clear:left;
-            position:relative;
-            right:50%;
-            height:30px;
-            float:right;
-            text-align:center;
-            font:30px Arial, Helvetica, sans-serif;
-            list-style:none;
-            padding:0;
-            margin:0
-        }
-        #mainmenu ul li {
-            position:relative;
-            left:50%;
-            float:left;
-            height:50px;
-            padding:0;
-            margin:0
-        }
-        #mainmenu ul li a {
-            border-left:1px solid #666;
-            display:block;
-            color: #fff;
-            text-decoration: none;
-            padding:5px 50px;
-        }
-        #mainmenu ul li:first-child a {border:none}
-
-        #mainmenu ul li:hover a {color:orange; text-decoration: underline}
-        #mainmenu ul li.hover a,
-        #mainmenu ul li.active a {color:#fff}
-
-        #mainmenu ul li:hover,
-        #mainmenu ul li.hover,
-        #mainmenu ul li.active {background: #666}
-
-
-        #mainmenu ul li ul {
-            position:absolute;
-            left:0;
-            top:50px;
-            font-size:20px;
-            display:none;
-            list-style:none;
-            visibility:hidden;
-            padding:0;
-            margin:0;
-            width:100%
-        }
-        #mainmenu ul li ul li {
-            background-color:#666;
-            position:relative;
-            left:0;
-            display:list-item;
-            float:none;
-            height:auto;
-            margin:0;
-            text-align:left;
-        }
-        #mainmenu ul li ul li a {
-            border-bottom:1px solid #999;
-            padding:8px 10px;
-            border:none
-        }
-        #mainmenu ul li ul li:hover,
-        #mainmenu ul li ul li.hover {
-            background-color:#444
-        }
-        #mainmenu ul li:hover ul,
-        #mainmenu ul li.hover ul {display:block}
-
-
-        #mainmenu ul li:hover > ul {
-            opacity: 1;
-            visibility: visible;
-            margin: 0;
-        }
-        #mainmenu ul li ul li ul {
-            top: 0;
-            left: 150px;
-            margin: 0 0 0 20px;
-            width:180px
-        }
-
-        #footer {
-            background-color:black;
-            color:white;
-            clear:both;
-            text-align:center;
-            padding:5px;
-            margin-top: 5%;
         }
 
         div.img {
