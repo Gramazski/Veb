@@ -131,7 +131,7 @@ body{
     width: 60%;
     margin-top: 7%;
     /*background-color: aquamarine;*/
-    margin-left: 20%;
+    /*margin-left: 20%;*/
 }
 
 #news p{
@@ -143,6 +143,8 @@ body{
 .leftimg {
     float:left;
     margin: 7px 7px 7px 0;
+    width: 50%;
+    height: 50%;
 }
 .rightimg  {
     float: right;
@@ -151,10 +153,20 @@ body{
 
 h1{
     margin-top: 2%;
-    font-size: 20px;
+    font-size: 30px;
+}
+
+h1 img{
+    height: 10%;
+    width: 100%;
+}
+
+p img{
+    width: 100%;
 }
 
 pre{
-    margin-left: 30%;
+    /*margin-left: 30%;*/
+    background-color: transparent;
     text-align: left;
 }

@@ -3,7 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" media="(max-width: 900px)" href="css/menu.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" media="(max-width: 900px)"  href="css/menu.css">
     <link rel="stylesheet" media="(min-width: 901px)" href="css/dmenu.css">
     <title>Все об авто</title>
     <style>
@@ -16,41 +21,36 @@
 </head>
 <body>
 
-<div id="mainmenu">
-    <ul>
-        <li><a href="#">Главная</a></li>
-        <!-- <li><a href="#">Авто в истории</a></li>-->
-        <li><a href="#">Каталог</a>
-            <ul>
-                <li><a href="japanauto.html">Японские</a></li>
-                <li><a href="#">Американские</a></li>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">AutoWorld</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html">Главная</a></li>
+                <li ><a href="japanauto.html">Японские </a></li>
+                <li><a href="americanauto.html">Американские</a></li>
                 <li><a href="#">Немецкие</a></li>
-                <li><a href="#">Росийские</a></li>
-                <li><a href="#">Европейские</a></li>
             </ul>
-        </li>
-        <li><a href="#">Операции</a>
-            <ul class="last">
-                <li><a href="#">Купля</a></li>
-                <li><a href="#">Продажа</a></li>
-                <li><a href="#">Страхование</a></li>
-                <li><a href="#">Прокат</a></li>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Войти</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-bookmark"></span> О нас</a></li>
             </ul>
-        </li>
-    </ul>
-</div>
-
+        </div>
+    </div>
+</nav>
 <p>i</p>
 
-<div id="newslist">
-    <ul>
-    </ul>
-</div>
-
-<div id="news">
+<div class="container " id="news">
     <h1 style="color: blue">АВТОНОВОСТИ</h1>
     <hr style="color: green">
-    <h1>Carlex Design анонсировали хромированный Nissan GT-R<img src="img/nissan-gt.jpg" style="padding-top: 5px"></h1>
+    <h1>Carlex Design анонсировали хромированный Nissan GT-R<img src="img/nissan-gt.jpg" class="img-responsive" style="padding-top: 5px"></h1>
     <p>Carlex Design представили весьма эффектный проект - хромированный Nissan GT-R с рядом косметических улучшений.<a href="newspage.html">Подробнее</a> </p>
     <hr style="color: indigo; margin-top: 2%">
     <h1>Летом стартует производство нового RAVON NEXIA<img src="img/ravon_nexia.jpg" style="padding-top: 5px"></h1>

@@ -1,7 +1,3 @@
-body{
-    background-image: url("img/bodyf.jpg");
-    background-attachment: fixed;
-}
 * {
     margin:0;
     padding:0
@@ -129,14 +125,14 @@ body{
 #news{
     text-align: center;
     width: 60%;
-    margin-top: 7%;
+    margin-top: 25%;
     /*background-color: aquamarine;*/
     margin-left: 20%;
 }
 
 #news p{
     margin-top: 4%;
-    text-align: center;
+    /*text-align: center;*/
     width: 100%;
 }
 
@@ -165,4 +161,9 @@ p img{
 
 .imview{
     height: 10%;
+}
+
+pre{
+    margin-left: 30%;
+    text-align: left;
 }
