@@ -117,11 +117,6 @@
     margin-top: 7%;
 }
 
-#newslist ul{
-    list-style-image: url("img/listimg.png");
-    color: white;
-}
-
 #news{
     text-align: center;
     width: 60%;
